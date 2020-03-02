@@ -9,16 +9,17 @@ This repo contains training scripts to train and evaluate popular deep learning 
 ## Install
 After installing Pytorch, install Brevitas:
  
-         ```bash
+ ```bash
          git clone https://github.com/Xilinx/brevitas
          cd brevitas
          pip install .
-         ```
+ ```
 
 Clone this repo
-         ```bash
-         git clone repo_link_here
-         ```
+
+```bash
+         git clone https://github.com/MinahilRaza/Brevitas_Fixed_Point.git
+```
 
 ## Results
 
@@ -60,3 +61,6 @@ From within the *training_scripts* folder:
 
 In order ro resume training from saved checkpoint use *--resume* flag. Set its value to true for resuming training.
 For evaluation on validation set, set *--evaluate* flag to true.
+
+## README format
+This README format was inspired by brevitas_cnv_lfc (https://github.com/ussamazahid96/brevitas_cnv_lfc)
