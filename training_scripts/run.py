@@ -44,7 +44,7 @@ parser = argparse.ArgumentParser(description='Brevitas Training')
 parser.add_argument('--device', default='cuda', help='cuda or cpu')
 parser.add_argument("--dataset", help="Dataset", default="MNIST")
 parser.add_argument('--network', help= 'topology', default= 'Lenet')
-parser.add_argument('--resume', '-r', action='store_true', help='resume training from checkpoint')
+parser.add_argument('--resume', action='store_true', help='resume training from checkpoint')
 parser.add_argument("--evaluate", dest="evaluate", action="store_true", help="evaluate model on validation set")
 
 # Hyper parameters
