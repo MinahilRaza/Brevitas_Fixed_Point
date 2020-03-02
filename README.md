@@ -39,23 +39,26 @@ In order to launch training, run the following commands
 ### MNIST for Lenet
 
 From within the *training_scripts* folder:
-         ```bash
-        python run.py --network Lenet --dataset MNIST
-         ```
+
+```bash
+python run.py --network Lenet --dataset MNIST
+```
 
 ### AlexNet for CIFAR10
 
 From within the *training_scripts* folder:
-         ```bash
-         python run.py --network AlexNet --dataset CIFAR10
-         ```
+
+```bash
+python run.py --network AlexNet --dataset CIFAR10
+```
 
 ### VGG for CIFAR10
 
 From within the *training_scripts* folder:
-         ```bash
-         python run.py --network VGG --dataset CIFAR10
-         ```
+
+```bash
+python run.py --network VGG --dataset CIFAR10
+```
 
 ## Resuming Training and Evaluation
 
