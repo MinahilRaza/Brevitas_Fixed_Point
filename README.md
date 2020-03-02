@@ -8,12 +8,12 @@ This repo contains training scripts to train and evaluate popular deep learning 
 
 ## Install
 After installing Pytorch, install Brevitas:
- 
- ```bash
+
+```bash
          git clone https://github.com/Xilinx/brevitas
          cd brevitas
          pip install .
- ```
+```
 
 Clone this repo
 
