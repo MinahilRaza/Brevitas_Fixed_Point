@@ -25,12 +25,13 @@ Clone this repo
 
 This repo includes pretrained models with the following accuracies
 
-        | Name     | Dataset  | Weight quantization | Activation quantization | Brevitas Top1 |
-        |----------|----------|---------------------|-------------------------|---------------|
-        | Lenet    |  MNIST   |        8 bit        |         8 bit           |    98.99%     |
-        | Lenet    |  MNIST   | 8 bit for conv only |   8 bit for conv only   |    99.08%     |
-        | Alexnet  |  CIFAR10 |        8 bit        |         8 bit           |    85.42%     |
-        | VGG      |  CIFAR10 |        8 bit        |         8 bit           |    86.22%     |
+
+| Name     | Dataset  | Weight quantization | Activation quantization | Brevitas Top1 |
+|----------|----------|---------------------|-------------------------|---------------|
+| Lenet    |  MNIST   |        8 bit        |         8 bit           |    98.99%     |
+| Lenet    |  MNIST   | 8 bit for conv only |   8 bit for conv only   |    99.08%     |
+| Alexnet  |  CIFAR10 |        8 bit        |         8 bit           |    85.42%     |
+| VGG      |  CIFAR10 |        8 bit        |         8 bit           |    86.22%     |
 
 ## Train
 
